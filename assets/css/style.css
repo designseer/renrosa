@@ -7402,6 +7402,15 @@ textarea:focus {
           animation-name: fadeInUp;
 }
 
+.banner-area .fadeInUp {
+  -webkit-animation-delay: 0.8s;
+          animation-delay: 0.8s;
+  -webkit-animation-name: fadeInUp;
+          animation-name: fadeInUp;
+          animation-duration: 1s;
+          animation-fill-mode: both;
+}
+
 .single-slider.slick-active .slider-animated-1 .fashion-3-slider-img2 img {
   -webkit-animation-delay: 1.3s;
           animation-delay: 1.3s;
