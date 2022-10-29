@@ -26,7 +26,8 @@
     <link rel="stylesheet" href="assets/css/plugins/jquery-ui.css">
     <link rel="stylesheet" href="assets/css/style.css">
         <style>
-
+/*	PRELoader for initial loading
+	========================================================================== */
 #preloader {
   position: fixed;
   top: 0;
@@ -63,11 +64,8 @@
   -webkit-animation: loader-bars 1.3s linear infinite;
   animation: loader-bars 1.3s linear infinite;
 }
-	
-/*	$Loader Bars
-	========================================================================== */
 
-    .loader-bars:before,
+.loader-bars:before,
 .loader-bars:after,
 .loader-bars span {
 	content: '';
@@ -289,10 +287,10 @@
                     <ul>
                         <li class="single-product-cart">
                             <div class="cart-img">
-                                <a href="#"><img src="assets/images/cart/cart-1.jpg" alt=""></a>
+                                <a href="#"><img src="assets/images/product-img1.jpg" alt=""></a>
                             </div>
                             <div class="cart-title">
-                                <h4><a href="#">Awesome Mobile</a></h4>
+                                <h4><a href="#">Product Title 1</a></h4>
                                 <span> 1 × $49.00	</span>
                             </div>
                             <div class="cart-delete">
@@ -301,10 +299,10 @@
                         </li>
                         <li class="single-product-cart">
                             <div class="cart-img">
-                                <a href="#"><img src="assets/images/cart/cart-2.jpg" alt=""></a>
+                                <a href="#"><img src="assets/images/product-img1.jpg" alt=""></a>
                             </div>
                             <div class="cart-title">
-                                <h4><a href="#">Smart Watch</a></h4>
+                                <h4><a href="#">Product Title 2</a></h4>
                                 <span> 1 × $49.00	</span>
                             </div>
                             <div class="cart-delete">
@@ -372,12 +370,12 @@
                     </div>
                     <div class="mobile-curr-lang-wrap">
                         <div class="single-mobile-curr-lang">
-                            <a class="mobile-language-active" href="#">Language <i class="icofont-simple-down"></i></a>
+                            <a class="mobile-language-active" href="#">Country <i class="icofont-simple-down"></i></a>
                             <div class="lang-curr-dropdown lang-dropdown-active">
                                 <ul>
-                                    <li><a href="#">English</a></li>
-                                    <li><a href="#">Spanish</a></li>
-                                    <li><a href="#">Hindi </a></li>
+                                    <li><a href="#"><img class="mr-2" width="24px" height="24px" src="assets/images/icons/usa.png"/>English</a></li>
+                                    <li><a href="#"><img class="mr-2" width="24px" height="24px" src="assets/images/icons/canada.png"/>Canada</a></li>
+                                    <li><a href="#"><img class="mr-2" width="24px" height="24px" src="assets/images/icons/india.png"/>India </a></li>
                                 </ul>
                             </div>
                         </div>
@@ -387,7 +385,7 @@
                             <li><i class="icofont-clock-time"></i>Monday - Friday: 9:00 - 19:00</li>
                             <li><i class="icofont-envelope"></i>Info@example.com</li>
                             <li><i class="icofont-stock-mobile"></i>(+55) 254. 254. 254</li>
-                            <li><i class="icofont-home"></i>Helios Tower 75 Tam Trinh Hoang - Ha Noi - Viet Nam</li>
+                            <li><i class="icofont-home"></i>Address line 1, Address line 2, Address line 3 - Canada</li>
                         </ul>
                     </div>
                 </div>
@@ -407,7 +405,7 @@
                                 <h3>Eastern Foods</h3>
                                 <h2><span>5%</span> off</h2>
                                 <div class="banner-btn-4 black">
-                                    <a href="shop.html">Browse Products <img class="" src="assets/images/icon-img/right-arrow-banner.svg" alt=""></a>
+                                    <a href="shop.html">Browse Products <img class="" src="assets/images/icons/right-arrow-banner.svg" alt=""></a>
                                 </div>
                             </div>
                         </div>
@@ -421,7 +419,7 @@
                                 <h3>Foods 2</h3>
                                 <h2><span>10%</span> off</h2>
                                 <div class="banner-btn-4 black">
-                                    <a href="shop.html">Browse Products <img class="" src="assets/images/icon-img/right-arrow-banner.svg" alt=""></a>
+                                    <a href="shop.html">Browse Products <img class="" src="assets/images/icons/right-arrow-banner.svg" alt=""></a>
                                 </div>
                             </div>
                         </div>
@@ -437,7 +435,7 @@
                                 <h3>Foods 3</h3>
                                 <h2><span>25%</span> off</h2>
                                 <div class="banner-btn-4 black">
-                                    <a href="shop.html">Browse Products <img class="" src="assets/images/icon-img/right-arrow-banner.svg" alt=""></a>
+                                    <a href="shop.html">Browse Products <img class="" src="assets/images/icons/right-arrow-banner.svg" alt=""></a>
                                 </div>
                             </div>
                         </div>
@@ -451,7 +449,7 @@
                                 <h3>Kitchen Treasures</h3>
                                 <h2><span>15%</span> off</h2>
                                 <div class="banner-btn-4 black">
-                                    <a href="shop.html">Browse Products <img class="" src="assets/images/icon-img/right-arrow-banner.svg" alt=""></a>
+                                    <a href="shop.html">Browse Products <img class="" src="assets/images/icons/right-arrow-banner.svg" alt=""></a>
                                 </div>
                             </div>
                         </div>
@@ -465,7 +463,7 @@
                 <div class="section-title-6 text-center mb-65">
                     <h2>Shop By</h2>
                 </div>
-                <div class="categories-brand-tab-list brand-tab-list-pink nav mb-70">
+                <div class="categories-brand-tab-list brand-tab-list-pink nav mb-40">
                     <a class="active" href="#categories-brand-1" data-bs-toggle="tab">
                         Brands
                     </a>
@@ -580,7 +578,10 @@
         <!-- PRODUCTS -->
         <div class="product-area pt-80 pb-80">
             <div class="container">
-                <div class="product-tab-list-6 nav mb-40">
+                <div class="section-title-6 text-center mb-65">
+                    <h2>Shop By</h2>
+                </div>
+                <div class="categories-brand-tab-list brand-tab-list-pink nav mb-40">
                     <a class="active" href="#product-1" data-bs-toggle="tab">
                         Hot Deals
                     </a>
