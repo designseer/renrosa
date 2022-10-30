@@ -2241,6 +2241,9 @@ textarea:focus {
 /*--
     Background Color
 ------------------------------------------*/
+.text-grey {
+  color: #777;
+}
 .bg-white {
   background-color: #fff;
 }
@@ -3587,6 +3590,8 @@ textarea:focus {
 
 .header-large-device {
   display: block;
+  -webkit-box-shadow: 0 0 25px 0 rgb(0 0 0 / 6%);
+    box-shadow: 0 0 25px 0 rgb(0 0 0 / 6%);
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -24822,10 +24827,17 @@ textarea:focus {
   color: #828495;
   border: 1px solid #E3E4E9;
   line-height: 1;
-  width: 31px;
+  width: 100%;
   height: 31px;
   text-align: center;
   line-height: 29px;
+  padding: 0 5px;
+  margin-bottom: 5px;
+  position: relative;
+}
+.product-details-content .pro-details-size .pro-details-size-content ul li a.active {
+  background-color: #333333;
+  color: #ffffff;
 }
 
 .product-details-content .pro-details-size .pro-details-size-content ul li a:hover {
@@ -25248,7 +25260,7 @@ textarea:focus {
 
 .product-details-2-img {
   position: relative;
-  padding-top: 90px;
+  padding-top: 10px;
   display: inline-block !important;
 }
 
@@ -26062,7 +26074,7 @@ textarea:focus {
 }
 
 .description-review-wrapper .pro-dec-accordion {
-  padding: 0 0 43px;
+  padding: 0 0 20px;
 }
 
 .description-review-wrapper .pro-dec-accordion:last-child {
@@ -26391,7 +26403,7 @@ textarea:focus {
 }
 
 .product-details-content-9 {
-  margin: 0 0 0 100px;
+  margin: 0 0 0 50px;
 }
 
 @media only screen and (min-width: 1366px) and (max-width: 1600px) {

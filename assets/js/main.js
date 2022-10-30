@@ -567,6 +567,11 @@
         $(this).addClass('active').parent().siblings().children('a').removeClass('active');
     });
     
+       /*------- Size active -----*/
+       $('.pro-details-size-content').on('click', 'a', function(e){
+        e.preventDefault();
+        $(this).addClass('active').parent().siblings().children('a').removeClass('active');
+    });
     
     /*--------------------------------
         Cart active
