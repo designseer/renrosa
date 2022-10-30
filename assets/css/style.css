@@ -28490,7 +28490,7 @@ textarea:focus {
   color: #828495;
   display: inline-block;
   border: 1px solid #E3E4E9;
-  width: 31px;
+  width: auto;
   height: 31px;
   line-height: 31px;
   text-align: center;
@@ -28498,7 +28498,7 @@ textarea:focus {
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .sidebar-widget-size ul li a {
-    width: 30px;
+    width: auto;
     height: 30px;
     line-height: 30px;
   }
@@ -28511,14 +28511,15 @@ textarea:focus {
 }
 
 .sidebar-widget-size.widget-filter-size ul li a {
-  width: 31px;
+  width: auto;
   height: 31px;
   line-height: 31px;
+  padding: 0 5px;
 }
 
 @media only screen and (min-width: 1366px) and (max-width: 1600px) {
   .sidebar-widget-size.widget-filter-size ul li a {
-    width: 29px;
+    width: auto;
     height: 29px;
     line-height: 29px;
   }
@@ -28526,7 +28527,7 @@ textarea:focus {
 
 @media only screen and (min-width: 1200px) and (max-width: 1365px) {
   .sidebar-widget-size.widget-filter-size ul li a {
-    width: 28px;
+    width: auto;
     height: 28px;
     line-height: 28px;
   }
