@@ -21403,24 +21403,24 @@ textarea:focus {
   fill: #0A1039;
 }
 
-.car-categories-wrap {
+.brand-categories-wrap {
   margin: 75px 0 0 35px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .car-categories-wrap {
+  .brand-categories-wrap {
     margin: 75px 0 0 0px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .car-categories-wrap {
+  .brand-categories-wrap {
     margin: 75px 0 0 0px;
   }
 }
 
 @media only screen and (max-width: 767px) {
-  .car-categories-wrap {
+  .brand-categories-wrap {
     margin: 60px 0 0 0px;
   }
 }
