@@ -2215,7 +2215,6 @@ textarea:focus {
     font-weight: 400;
 }
 
-
 .bg-white {
   background-color: #fff;
 }
@@ -2349,7 +2348,7 @@ textarea:focus {
 }
 
 .bg-theme-color-yellow {
-  background-color: #EBA866;
+  background-color: #EBA866 !important;
 }
 
 .bg-theme-color-green-3 {
@@ -24948,6 +24947,13 @@ textarea:focus {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .product-details-content .pro-details-action-wrap .pro-details-buy-now a {
     padding: 16px 30px 21px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .product-details-content .pro-details-action-wrap .pro-details-buy-now a {
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: center;
   }
 }
 
