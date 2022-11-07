@@ -18920,8 +18920,9 @@ textarea:focus {
 .deal-content-2 h4 {
   font-size: 22px;
   font-family: "Pacifico";
-  color: #359043;
+  color: #ff434a;
   margin: 0;
+  letter-spacing: 2.5px;
 }
 
 .deal-content-2 h3 {
@@ -18943,7 +18944,7 @@ textarea:focus {
 }
 
 .deal-content-2 h3 a:hover {
-  color: #359043;
+  color: #ff434a;
 }
 
 .deal-content-2 span {
@@ -18963,7 +18964,7 @@ textarea:focus {
 
 .timer-style-2 div > span {
   text-align: center;
-  background-color: #FAFAFA;
+  background-color: #fff;
   border-radius: 8px;
   padding: 16px 25px 14px;
   margin-right: 15px;
