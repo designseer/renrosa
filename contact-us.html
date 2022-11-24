@@ -291,6 +291,11 @@
                                     <p>* Required fields</p>
                                     <button class="submit" type="submit">Send message</button>
                                 </div>
+								 <div class="form-group">
+                                    <div class="g-recaptcha" data-sitekey="6Les_LUUAAAAAOwAecAV2bvGOrePoZVQPLDOJcs_" data-callback="verifyRecaptchaCallback" data-expired-callback="expiredRecaptchaCallback"></div>
+                                    <input class="form-control d-none" data-recaptcha="true" required data-error="Please complete the Captcha">
+                                    <div class="help-block with-errors"></div>
+                                </div>
                             </form>
                             <p class="form-messege"></p>
                         </div>
@@ -516,6 +521,7 @@
     <script src="assets/js/plugins/scrollup.js"></script>
     <!-- Main JS -->
     <script src="assets/js/main.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
 
 </body>
 
